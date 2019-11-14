@@ -58,12 +58,7 @@ $(document).ready(function(){
                             {
                                 id: 'y-axis-temperature',
                                 type: 'linear',
-                                position: 'left',
-                                ticks:
-                                    {
-                                        min: -5,
-                                        max: 5
-                                    }
+                                position: 'left'
                             },
                             {
                                 id: 'y-axis-humidity',
