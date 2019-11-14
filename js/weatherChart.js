@@ -1,10 +1,12 @@
 //https://www.dyclassroom.com/chartjs/chartjs-how-to-draw-line-graph-using-data-from-mysql-table-and-php
 $(document).ready(function(){
     $.ajax({
-        url : "../getWeatherDataAsJSON.php",
+        // path is relative to the html file
+        url : "getWeatherDataAsJSON.php",
         type : "GET",
         success : function(data){
-            console.log(data);
+            console.log("in success function");
+            //console.log(data);
             var id = [];
             var date_time = [];
             var temperature = [];
